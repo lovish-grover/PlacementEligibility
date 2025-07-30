@@ -11,7 +11,7 @@ This project allows users (like placement teams or college admins) to:
 Filter students based on custom eligibility criteria  
 Analyze batch-wise performance and placement trends  
 Generate real-time reports with interactive visualizations  
-Export filtered results and insights to CSV
+Export filtered results to CSV
 
 ---
 
