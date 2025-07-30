@@ -72,6 +72,8 @@ def main():
             if not df.empty:
                 st.success(f"{len(df)} students found.")
                 st.dataframe(df)
+                csv = df.to_csv(index=False).encode('utf-8')
+                st.download_button('Export to csv',data=csv, file_name='data.csv')
             else:
                 st.warning("No eligible students found.")
 
