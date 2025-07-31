@@ -28,3 +28,10 @@ Export filtered results to CSV
 
 ## Folder Structure
 
+placement_eligibility_app/
+├── main.py # Streamlit app (filter + insights)
+├── db_init.py # MySQL table creation with OOP
+├── fake_data_gen.py # Populate database using Faker
+├── query.sql # Python dependencies
+├── .env # Environment variables (MySQL credentials)
+└──  README.md # You're here!
